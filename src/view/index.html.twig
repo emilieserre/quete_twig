@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+
+    <div class="row">
+    {% for gem in gems %}
+
+        <div class="card-group col-md-4">
+            <div class="card">
+                <img src="#" class="gemPhoto card-img-top" alt="gem">
+                <div class="card-body">
+                    <h5 class="card-title">{{ gem }}</h5>
+                    <p class="card-text">gem</p>
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+    </div>
+{% endblock %}

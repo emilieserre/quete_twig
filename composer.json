@@ -1,0 +1,13 @@
+{
+    "name": "isildur/twig",
+    "description": "quete twig",
+    "authors": [
+        {
+            "name": "Emilie SERRE",
+            "email": "emilieserre@hotmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}
